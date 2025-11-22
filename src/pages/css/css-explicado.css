@@ -1,0 +1,254 @@
+.boton-azul {
+    color: white;
+    background-color: blue
+}
+.texto-de-ejemplo-color {
+    color: red
+}
+.texto-de-ejemplo-fuente {
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto-de-ejemplo-size {
+    font-size: 22px;
+}
+
+.texto-de-ejemplo-align {
+    text-align: center;
+}
+
+.boton-decoration {
+    margin: 15px;
+    color: aliceblue;
+    background-color: rgb(116, 2, 2);
+    border-style: none;
+    border-radius: 25px;
+    transition: 300ms
+}
+
+.boton-decoration:hover {
+    transform: scale(110%);
+    background-color: crimson;
+}
+
+.texto-ejemplo-muy-estilizado {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+    text-decoration-style: double;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-align: center;
+    font-size: 35px;
+}
+
+.fondo-yellow {
+    background-color: yellow;
+}
+.fondo-cyan-con-padding {
+    background-color: cyan;
+    padding: 50px;
+}
+
+.fondo-cyan-con-margin {
+    background-color: cyan;
+    margin-top: 40px;
+}
+.fondo-yellow-height100-width100 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.fondo-yellow-height50-width500 {
+    background-color: yellow;
+    width: 500px;
+    height: 25px;
+}
+.fondo-yellow-height100-width300 {
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+}
+.fondo-yellow-height100-width1000 {
+    background-color: yellow;
+    width: 1000px;
+    height: 100px;
+}
+.fondo-yellow-maxHeight-width200 {
+    background-color: yellow;
+    width: 200px;
+    height: fit-content;
+}
+.fondo-yellow-height25-maxWidth {
+    background-color: yellow;
+    width: max-content;
+    height: 25px;
+}
+.fondo-yellow-maxHeight-maxWidth {
+    background-color: yellow;
+    width: max-content;
+    height: max-content;
+}
+.boton-maxWidth-maxHeight {
+    background-color: black;
+    width: max-content;
+    height: max-content;
+}
+.sin-sentido {
+    color:blue;
+    background-color: gold;
+    text-decoration-style: dashed;
+}
+.sin-sentido-dos {
+    color: red;
+    background-color: black;
+}
+
+.boton-muy-bonito {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: navy;
+    background-color: seashell;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    border-color: navy;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    padding: 15px;
+    height: max-content;
+    width: max-content;
+}
+
+.div-de-ejemplo {
+    background-color: orange
+}
+.div-de-ejemplo:hover {
+    background-color: cyan
+}
+
+.boton-muy-bonito-v2 {
+    font-family: 'Times New Roman';
+    font-size: large;
+    color: navy;
+    background-color: seashell;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    border-color: navy;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    padding: 15px;
+    height: max-content;
+    width: max-content;
+}
+.boton-muy-bonito-v2:hover {
+    box-shadow: 0px 0px 5px 5px royalblue
+}
+
+
+.boton-muy-bonito-v3 {
+    font-family: 'Times New Roman';
+    font-size: large;
+    color: navy;
+    background-color: seashell;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    border-color: navy;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    padding: 15px;
+    height: max-content;
+    width: max-content;
+}
+.boton-muy-bonito-v3:hover {
+    background-color: navy;
+    color: seashell;
+    border-width: 0px;
+    box-shadow: 0px 0px 5px 5px royalblue
+}
+
+.boton-muy-bonito-v4 {
+    font-family: 'Times New Roman';
+    font-size: large;
+    color: navy;
+    background-color: seashell;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    border-color: navy;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    padding: 15px;
+    height: max-content;
+    width: max-content;
+
+    transition: 400ms
+}
+.boton-muy-bonito-v4:hover {
+    background-color: navy;
+    color: seashell;
+    border-width: 0px;
+    box-shadow: 0px 0px 5px 5px royalblue
+}
+.boton-muy-bonito-v4:active {
+    background-color: seashell;
+    color: navy;
+    border-color: navy;
+    border-width: 3px;
+}
+
+.transicion-0ms:active {
+    transition: 0ms;
+}
+
+.display-block {
+    display: block;
+}
+.display-inline {
+    display: inline;
+}
+.display-flex {
+    display: flex;
+}
+
+.fondo-cyan {
+    background-color: cyan;
+}
+.padding-25px {
+    padding: 25px;
+}
+
+.padding-5px {
+    padding: 5px;
+}
+.black-border {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.boton-justifyContent {
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: brown;
+    border: none;
+    width: max-content;
+    min-width: 100px;
+    height: max-content;
+    padding: 15px;
+    transition: 200ms;
+}
+.boton-justifyContent:hover {
+    box-shadow: 0px 0px 4px 4px brown;
+    background-color: aliceblue;
+    color: brown;
+    transform: scale(105%);
+}
+.boton-justifyContent:active {
+    box-shadow: 0px 0px 4px 4px rgb(255, 0, 0);
+    background-color: aliceblue;
+    color: rgb(255, 0, 0);
+    transform: scale(110%);
+    transition: 0ms;
+}
+
