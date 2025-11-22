@@ -27,6 +27,9 @@ function Home() {
                 <button className="home-button-css" onClick={() => navigate("/css-explicado")}>CSS y estilos</button>
                 <button className="home-button-react">JavaScript y React</button>
             </div>
+            <p className="self-center" style={{fontSize: '1.2rem'}}>
+            {'(PD: Esta paginada deployeada en vercel al recargar te tira 404 a veces, asi que no aprietes nunca F5 xD)'}
+            </p>
         </div>
     )
 }
