@@ -9,7 +9,7 @@ function Home() {
             <h1 className="home-titulo">Tutorial de cositas de Interfaces</h1>
             <p style={{fontSize: '1.2rem'}}>
             Holiiii. Bueno, esta pagina tiene como objetivo 2 cosas: Ayudarme a mi a aprender y prepararme para cursar de nuevo interfaces, y que mejor 
-            manera de aprender que enseñando a alguien mas, entonces tambien como objetivo tiene ser un acercamiento temprano para vos a los contenidos 
+            manera de aprender que enseñando a alguien mas, entonces tambien tiene como objetivo ser un acercamiento temprano para vos a los contenidos 
             de front de la materia. Y creeme que lo vas a necesitar, porque todo el universo de front es algo complicado. Para un cuatrimestre es mucho
             bastante ver HTML, CSS, Javascript y React. Entonces nada, espero suavizar tu aprendizaje con esto y ademas ayudarme a mi porque hay cosas
             que yo no se y esto a mi me sirve. Blep
@@ -24,9 +24,12 @@ function Home() {
             </p>
             <div className="home-container-buttons">
                 <button className="home-button-html" onClick={() => navigate("/html-explicado")}>HTML pelado</button>
-                <button className="home-button-css">CSS y estilos</button>
+                <button className="home-button-css" onClick={() => navigate("/css-explicado")}>CSS y estilos</button>
                 <button className="home-button-react">JavaScript y React</button>
             </div>
+            <p className="self-center" style={{fontSize: '1.2rem'}}>
+            {'(PD: Esta paginada deployeada en vercel al recargar te tira 404 a veces, asi que no aprietes nunca F5 xD)'}
+            </p>
         </div>
     )
 }
