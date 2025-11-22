@@ -1,6 +1,11 @@
 import CodeTextHTML from "../../componentes/CodeTextHTML"
+import { useNavigate } from "react-router-dom"
+
 
 export default function HTML() {
+
+    const navigate = useNavigate()
+
     return(
         <div style={{
             width: 'auto',
@@ -15,8 +20,8 @@ export default function HTML() {
                 backgroundColor: 'aliceblue',
                 width: '90vw',
                 borderRadius: '25px',
-                paddingLeft: '60px',
-                paddingRight: '60px'
+                paddingLeft: '40px',
+                paddingRight: '40px'
             }}>
                 <h1>Arrancando con HTML</h1>
                 <p>
@@ -518,7 +523,7 @@ export default function HTML() {
                         <p>
                             Con esto termina toda la explicacion de HTML mas o menos basica. Hay mas etiquetas que no explique, como para manejar tablas, para reproducir audio, video, 
                             para <u>subrayar texto</u> o <strike>para tacharlo</strike>, pero la verdad es que son cosas que no me parecen tan importantes respecto a lo que da interfaces y ademas
-                            cosas como tachar el texto o subrayarlo o muchas cosas mas se pueden hacer con CSS y es mas o menos mas comodo asi.
+                            cosas como tachar el texto o subrayarlo o muchas cosas mas se pueden hacer con CSS y es mas comodo asi.
                             <br />
                             <br />
                             Ahora, solo si te interesa, te dejo un ejemplo que podes copiar y guardar como .html, y luego hacerle doble click al archivo y abrirlo en un navegador. 
@@ -576,7 +581,7 @@ export default function HTML() {
                     <b>Y con todo esto de HTML explicado, podemos pasar a <span style={{color: 'blue'}}>CSS</span></b>
                     
                 </p>
-                <button className="home-button-css" style={{marginBottom: '25px'}}>CSS</button>
+                <button className="home-button-css" style={{marginBottom: '25px'}} onClick={() => navigate('/css-explicado')}>CSS</button>
             </div>
         </div>
     )
